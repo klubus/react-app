@@ -2,7 +2,7 @@ import styles from './Button.module.scss';
 
 const Button = ({ children, ...props }) => {
   return (
-    <button type={props.type || 'button'} className={styles.button} {...props}>
+    <button type={props.type || 'submit'} className={styles.button} {...props}>
       {children}
     </button>
   );
