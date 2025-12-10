@@ -18,8 +18,6 @@ export const updateSearchString = (payload) => ({
   payload,
 });
 
-export const getAllColumns = (state) => state.columns;
-
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case 'ADD_COLUMN':
