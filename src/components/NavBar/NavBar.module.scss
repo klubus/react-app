@@ -19,6 +19,9 @@
     text-decoration: none;
     font-weight: bold;
   }
+  a.linkActive {
+    color: $color-warning;
+  }
 }
 
 i {
