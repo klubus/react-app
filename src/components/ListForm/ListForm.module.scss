@@ -1,0 +1,21 @@
+.listForm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    max-width: 300px;
+  }
+  
+  .listFieldName {
+    margin: 10px;
+  }
+  
+  .listWrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  button {
+    white-space: nowrap;
+  }
+  

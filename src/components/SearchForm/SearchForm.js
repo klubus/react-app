@@ -10,7 +10,7 @@ const SearchForm = () => {
   const [title, setTitle] = useState('');
   const handleClick = (e) => {
     e.preventDefault();
-    dispatch(updateSearchString({ title }));
+    dispatch(updateSearchString(title));
   };
 
   return (
